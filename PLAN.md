@@ -26,6 +26,10 @@ verifies the deliverable; it does not tune or retrain the model.
    individual review, iterative planning, tests and development logs. The three-page
    PDF and all 39 synthetic tests pass review. Public and packaged reports must
    use this verified revision.
+10. Complete: fact-check report claims against source code, model contents,
+    locked predictions and historical records. Recomputed all 40 validation
+    rows and 60 comparison metrics without numerical discrepancies; clarified
+    temporal handling and the limits of model-selection estimates. All 39 tests pass.
 
 The submission files and public links are ready. Hidden-test metrics remain
 dependent on the evaluator; they cannot be computed from the released inputs.

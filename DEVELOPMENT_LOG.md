@@ -135,3 +135,20 @@ model weights, predictions and metrics are unchanged.
 validation and hidden-test limitations.
 
 **Next.** Synchronize the public report and submission archives before handoff.
+
+## 2026-10-16 - Report fact check
+
+**Work.** Checked report claims against source code, the native model and original
+experiment records. Recomputed final validation results and all 60 historical
+comparison metrics; none differed. Clarified duration handling, candidate fields,
+label boundaries, cross-validation scope and statistical limitations. Reviewed
+the three-page PDF; all 39 synthetic tests pass.
+
+**Rationale.** Make the report match the implemented methods and strength of evidence.
+
+**Impact.** Documentation changed; model weights, predictions and scores did not.
+
+**Limitations.** Reused development and validation results are not independent
+test estimates. Hidden-test outcomes and clinical generalization remain unverified.
+
+**Next.** Publish this correction and refresh the matching submission archives.
