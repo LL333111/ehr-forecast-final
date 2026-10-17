@@ -30,6 +30,9 @@ verifies the deliverable; it does not tune or retrain the model.
     locked predictions and historical records. Recomputed all 40 validation
     rows and 60 comparison metrics without numerical discrepancies; clarified
     temporal handling and the limits of model-selection estimates. All 39 tests pass.
+11. Complete: publish the accepted test predictions as a GitHub release attachment,
+    link them from the README, and verify the anonymous download. All 39 tests pass;
+    the model and prediction values are unchanged.
 
 The submission files and public links are ready. Hidden-test metrics remain
 dependent on the evaluator; they cannot be computed from the released inputs.

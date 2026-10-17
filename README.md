@@ -3,6 +3,9 @@
 Predict first-recorded diagnoses over five years from synthetic patient histories.
 The final model uses 512 features and 40 independent LightGBM classifiers.
 
+Submission files: [technical report](docs/results.pdf) |
+[predictions.csv](https://github.com/LL333111/ehr-forecast-final/releases/download/submission/predictions.csv).
+
 | Official split | Patients | Use |
 | --- | ---: | --- |
 | Train | 2,791 | Fit preprocessing, feature selection and models |
@@ -116,6 +119,9 @@ outputs/           Generated local artifacts, ignored by Git
 
 [The technical report](docs/results.pdf) covers the representation, leakage
 policy, model comparison, curves, condition-level results and AI workflow.
+The [test predictions](https://github.com/LL333111/ehr-forecast-final/releases/download/submission/predictions.csv)
+are available as a release attachment: 358 patients, `patient_id`, and 40
+target-code probability columns in the supplied order.
 Code is published on [GitHub](https://github.com/LL333111/ehr-forecast-final).
 The final weights and fitted preprocessing are published on
 [Hugging Face](https://huggingface.co/X13579/ehr-forecast-final).
@@ -125,7 +131,7 @@ The W&B records are available for [cloud training](https://wandb.ai/lucasliu518-
 and [fixed-model validation replay](https://wandb.ai/lucasliu518-student/ehr-forecast/runs/kcb712gf).
 Both runs are publicly readable. All 150 training points and 16 validation points
 match the published curves.
-Submit `predictions.csv` and `Lucas_Liu_results.pdf` with the code and model links.
+The repository provides the report and predictions alongside the code and model links.
 Hidden-test metrics must come from the evaluator.
 
 This release retains the final pipeline. Superseded experiments and full local

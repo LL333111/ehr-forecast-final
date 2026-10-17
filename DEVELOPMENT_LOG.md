@@ -152,3 +152,20 @@ the three-page PDF; all 39 synthetic tests pass.
 test estimates. Hidden-test outcomes and clinical generalization remain unverified.
 
 **Next.** Publish this correction and refresh the matching submission archives.
+
+## 2026-10-17 - Public prediction download
+
+**Work.** Published the accepted `predictions.csv` as a public GitHub release
+attachment and linked it from the README. Verified all 358 test patients, the
+40 target-code columns, probability bounds and an anonymous download. Its SHA-256
+matches the accepted submission. All 39 synthetic tests pass.
+
+**Rationale.** Make all four required deliverables accessible through the submitted
+code, model and W&B links, as requested by the author.
+
+**Impact.** The predictions, report, model and metrics are unchanged. Raw inputs
+remain local; the downloadable CSV contains synthetic patient IDs and probabilities.
+
+**Limitations.** Hidden-test outcomes remain unavailable and require the evaluator.
+
+**Next.** Submit the public links. The repository README links the report and CSV.
