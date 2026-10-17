@@ -1,0 +1,106 @@
+{
+  "model": "LightGBM, 40 independent binary classifiers",
+  "official_patients": {
+    "train": 2791,
+    "val": 365,
+    "test": 358
+  },
+  "features": {
+    "candidates": 36327,
+    "quality": 16181,
+    "selected": 512
+  },
+  "official_validation": {
+    "mAP": 0.2463337995869393,
+    "macro_AUROC": 0.7622505878336167,
+    "predictions_locked_before_scoring": true,
+    "previously_unused_holdout": false
+  },
+  "test_metrics": null,
+  "parameters": {
+    "boosting_type": "gbdt",
+    "class_weight": null,
+    "colsample_bytree": 0.8,
+    "importance_type": "split",
+    "learning_rate": 0.05,
+    "max_depth": -1,
+    "min_child_samples": 20,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.0,
+    "n_estimators": 150,
+    "n_jobs": 2,
+    "num_leaves": 31,
+    "objective": null,
+    "random_state": 20261016,
+    "reg_alpha": 0.0,
+    "reg_lambda": 20,
+    "subsample": 0.8,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 1,
+    "max_bin": 127,
+    "verbosity": -1
+  },
+  "release_verification": {
+    "training_features": {
+      "identical": true,
+      "shape": [
+        2791,
+        36327
+      ],
+      "max_absolute_error": 0.0,
+      "selected_512_columns_identical": true,
+      "different_entries": 0
+    },
+    "training_labels": {
+      "identical": true,
+      "shape": [
+        2791,
+        40
+      ]
+    },
+    "quality_columns": {
+      "identical": true,
+      "shape": [
+        16181
+      ]
+    },
+    "training_prior": {
+      "identical": true,
+      "shape": [
+        2791,
+        40
+      ]
+    },
+    "fitted_preprocessing_identical": true,
+    "training_prediction_max_absolute_error": 1.1102230246251565e-16,
+    "test_prediction_sha256": "8c15bafc7197d963208980bc8a9e3f107d0c21cb9c939dec26e0eaf9b65f3bae",
+    "val_prediction_sha256": "63796cc84dce50e6be1df9c3b8a65c532e34722b29627097707895f0dc66b4d9",
+    "validation_metrics_identical": true,
+    "validation_macro_ap": 0.2463337995869393,
+    "validation_macro_auroc": 0.7622505878336167,
+    "model_archive_sha256": "7f91977f6532970a2c0813a36f31f643fec99cc5e632405fd27b405a4114c0a0",
+    "complete": true,
+    "formal_model_fitting_performed": false
+  },
+  "synthetic_tests": {
+    "passed": 39,
+    "failures": 0,
+    "errors": 0
+  },
+  "pdf_review": {
+    "pages": 4,
+    "target_codes_verified": 40,
+    "English_only": true,
+    "all_pages_visually_reviewed": true,
+    "sha256": "0a10b762b0b004826b7585b0e78e1ba55666be4818289994d0ba38bc8e684093"
+  },
+  "fitting_on_validation_or_test": false,
+  "cleanup_retrained_models": false,
+  "installation_check": "Editable package installed in the existing pinned environment; no fresh dependency installation.",
+  "submission_pending": [
+    "New GitHub repository URL",
+    "Hugging Face model publication",
+    "W&B online run URL",
+    "Evaluator-provided hidden-test scores"
+  ]
+}
