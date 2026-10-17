@@ -15,7 +15,10 @@ verifies the deliverable; it does not tune or retrain the model.
    file without authentication; update the documentation and report with the model link.
 6. Complete: shorten the English report while retaining the required methods,
    model comparison, curves, condition-level results, AI workflow and limitations.
+7. Complete: audit and synchronize the two final W&B runs, verify anonymous
+   read access and every curve point, add the report links, and prepare all four
+   submission items.
 
-Remaining submission dependencies: W&B account synchronization and the actual
-run URL, and evaluator-provided hidden-test
-metrics. None of these authorize additional model selection or fitting.
+The submission files and public links are ready. Hidden-test metrics remain
+dependent on the evaluator; they cannot be computed from the released inputs.
+No further model selection or fitting is authorized by this release phase.

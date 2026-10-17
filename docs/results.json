@@ -92,7 +92,7 @@
     "target_codes_verified": 40,
     "English_only": true,
     "all_pages_visually_reviewed": true,
-    "sha256": "bd496dca91771f4acb03e3bf5055307fb7f24fe47c0c5bd68e07874a04e4f3c8"
+    "sha256": "b73230e467049933eac7344d92cdbac95fb22b9a3cecf357eb49f709209b773b"
   },
   "fitting_on_validation_or_test": false,
   "cleanup_retrained_models": false,
@@ -105,7 +105,17 @@
     "all_four_files_match_local_checksums": true
   },
   "submission_pending": [
-    "W&B online run URL",
     "Evaluator-provided hidden-test scores"
-  ]
+  ],
+  "wandb": {
+    "project": "https://wandb.ai/lucasliu518-student/ehr-forecast",
+    "training_run": "https://wandb.ai/lucasliu518-student/ehr-forecast/runs/8ttc14tr",
+    "validation_replay_run": "https://wandb.ai/lucasliu518-student/ehr-forecast/runs/kcb712gf",
+    "training_points": 150,
+    "validation_points": 16,
+    "online_curves_match_local": true,
+    "public_access_verified": true,
+    "validation_is_post_training_replay": true,
+    "public_read_only": true
+  }
 }

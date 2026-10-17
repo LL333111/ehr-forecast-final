@@ -80,3 +80,22 @@ predictions and metrics are unchanged.
 **Limitations.** W&B links are still pending, and hidden-test scores are unavailable.
 
 **Next.** Add the verified W&B links after account synchronization.
+
+## 2026-10-16 - W&B records and submission checks
+
+**Work.** Synchronized the original cloud-training run and the fixed-model
+validation replay. Verified anonymous read access and exact agreement with all
+150 training points and 16 validation points. Added both links to the three-page
+report and README. All 39 synthetic tests pass.
+
+**Rationale.** Complete the required experiment records and submission links.
+
+**Impact.** The report and link list are ready alongside predictions for all
+358 test patients and 40 target codes. Model weights and predictions are unchanged;
+the W&B records contain metrics and run metadata, not patient rows.
+
+**Limitations.** Validation is a post-training replay on a historically reused
+split. Hidden-test metrics remain unavailable until the evaluator provides them.
+
+**Next.** Submit the named report, predictions, public code and model links.
+Do not use this release work to tune or retrain the model.

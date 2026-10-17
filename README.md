@@ -120,10 +120,12 @@ The final weights and fitted preprocessing are published on
 [Hugging Face](https://huggingface.co/X13579/ehr-forecast-final).
 All four published files were downloaded without authentication and matched
 the local checksums. The model archive is identical to the GitHub copy.
-Submit `predictions.csv` with the report. W&B synchronization and its online
-run link remain pending. Hidden-test metrics must come from the evaluator.
-Rename the report to the task's requested
-`your_name_results.pdf` when submitting.
+The W&B records are available for [cloud training](https://wandb.ai/lucasliu518-student/ehr-forecast/runs/8ttc14tr)
+and [fixed-model validation replay](https://wandb.ai/lucasliu518-student/ehr-forecast/runs/kcb712gf).
+Both runs are publicly readable. All 150 training points and 16 validation points
+match the published curves.
+Submit `predictions.csv` and `Lucas_Liu_results.pdf` with the code and model links.
+Hidden-test metrics must come from the evaluator.
 
 This release retains the final pipeline. Superseded experiments and full local
 research logs are preserved in an ignored archive in the original workspace.
