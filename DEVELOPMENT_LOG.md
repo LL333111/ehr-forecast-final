@@ -46,3 +46,22 @@ need completion. Hidden-test scores remain unavailable.
 
 **Next.** Complete those submission links and use the existing final predictions
 and report. This publication does not authorize further model selection or fitting.
+
+## 2026-10-16 - Hugging Face publication
+
+**Work.** Published the final model archive, English model card, attribution notice
+and checksums to [X13579/ehr-forecast-final](https://huggingface.co/X13579/ehr-forecast-final).
+Downloaded all four files without authentication and verified their SHA-256 hashes.
+Added the model link to the README, results metadata and report.
+All 39 synthetic tests pass; the four-page report's layout and links were checked.
+
+**Rationale.** Fulfill the model-hosting requirement and let evaluators retrieve
+the exact accepted weights and preprocessing.
+
+**Impact.** The model archive is byte-for-byte identical to the existing final
+bundle. No patient rows were uploaded, and no model fitting or selection occurred.
+
+**Limitations.** W&B synchronization and the report's online run link remain
+pending. Hidden-test outcomes remain unavailable.
+
+**Next.** Complete the W&B link and submit the existing predictions and report.

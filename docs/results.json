@@ -92,14 +92,19 @@
     "target_codes_verified": 40,
     "English_only": true,
     "all_pages_visually_reviewed": true,
-    "sha256": "4ab9e0cea0198824b52da69fa21ca2b9a1bee0a8f601fb88e56a90dc4da2e1b8"
+    "sha256": "63ca56ec0f49759fabf2edc047afb1fb3b03b86a32577625cf8b84e70bae2d24"
   },
   "fitting_on_validation_or_test": false,
   "cleanup_retrained_models": false,
   "installation_check": "Editable package installed in the existing pinned environment; no fresh dependency installation.",
   "github_repository": "https://github.com/LL333111/ehr-forecast-final",
+  "hugging_face": {
+    "repository": "https://huggingface.co/X13579/ehr-forecast-final",
+    "revision": "ec15a7f511d3609b91b513ebc52695ee13e390df",
+    "public_anonymous_download_verified": true,
+    "all_four_files_match_local_checksums": true
+  },
   "submission_pending": [
-    "Hugging Face model publication",
     "W&B online run URL",
     "Evaluator-provided hidden-test scores"
   ]

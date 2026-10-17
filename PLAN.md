@@ -10,7 +10,10 @@ verifies the deliverable; it does not tune or retrain the model.
    aggregate results and model archive; preserve old research in the ignored archive.
 4. Complete: publish the 48-file final release to
    https://github.com/LL333111/ehr-forecast-final and verify the remote files.
+5. Complete: publish the unchanged final model to
+   https://huggingface.co/X13579/ehr-forecast-final and verify every downloaded
+   file without authentication; update the documentation and report with the model link.
 
-Remaining submission dependencies: Hugging Face model publication, W&B account
-synchronization and the actual run URL, and evaluator-provided hidden-test
+Remaining submission dependencies: W&B account synchronization and the actual
+run URL, and evaluator-provided hidden-test
 metrics. None of these authorize additional model selection or fitting.
