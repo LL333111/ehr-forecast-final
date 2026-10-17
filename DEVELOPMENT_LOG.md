@@ -65,3 +65,18 @@ bundle. No patient rows were uploaded, and no model fitting or selection occurre
 pending. Hidden-test outcomes remain unavailable.
 
 **Next.** Complete the W&B link and submit the existing predictions and report.
+
+## 2026-10-16 - Report revision
+
+**Work.** Reduced the report from four pages to three and cut the text by 34%.
+Checked all 15 comparison rows, 40 condition results, links and page layouts.
+All 39 synthetic tests pass.
+
+**Rationale.** Remove repetition and make the methods and findings easier to read.
+
+**Impact.** Required methods, curves and results remain; model weights,
+predictions and metrics are unchanged.
+
+**Limitations.** W&B links are still pending, and hidden-test scores are unavailable.
+
+**Next.** Add the verified W&B links after account synchronization.

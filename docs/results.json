@@ -88,11 +88,11 @@
     "errors": 0
   },
   "pdf_review": {
-    "pages": 4,
+    "pages": 3,
     "target_codes_verified": 40,
     "English_only": true,
     "all_pages_visually_reviewed": true,
-    "sha256": "63ca56ec0f49759fabf2edc047afb1fb3b03b86a32577625cf8b84e70bae2d24"
+    "sha256": "bd496dca91771f4acb03e3bf5055307fb7f24fe47c0c5bd68e07874a04e4f3c8"
   },
   "fitting_on_validation_or_test": false,
   "cleanup_retrained_models": false,

@@ -13,6 +13,8 @@ verifies the deliverable; it does not tune or retrain the model.
 5. Complete: publish the unchanged final model to
    https://huggingface.co/X13579/ehr-forecast-final and verify every downloaded
    file without authentication; update the documentation and report with the model link.
+6. Complete: shorten the English report while retaining the required methods,
+   model comparison, curves, condition-level results, AI workflow and limitations.
 
 Remaining submission dependencies: W&B account synchronization and the actual
 run URL, and evaluator-provided hidden-test
