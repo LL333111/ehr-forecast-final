@@ -27,3 +27,22 @@ preserved in the original workspace's ignored archive, not in this release.
 **Next.** Upload the reviewed files to the owner's new GitHub repository after its
 URL is supplied. Complete the separate model-hosting and run-link requirements
 before submission. Do not tune or retrain from these validation results.
+
+## 2026-10-16 - GitHub publication
+
+**Work.** Published the 48-file final release to
+[LL333111/ehr-forecast-final](https://github.com/LL333111/ehr-forecast-final).
+Updated the repository links and report, checked the remote file tree, and
+reran all 39 synthetic tests successfully.
+
+**Rationale.** Provide one public, reviewable version of the accepted pipeline.
+
+**Impact.** Model weights, preprocessing, predictions and reported metrics are
+unchanged. Raw data, patient-level outputs and research history remain local;
+the public repository starts with the isolated final-release commit.
+
+**Limitations.** Hugging Face publication and the W&B online run link still
+need completion. Hidden-test scores remain unavailable.
+
+**Next.** Complete those submission links and use the existing final predictions
+and report. This publication does not authorize further model selection or fitting.

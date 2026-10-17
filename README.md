@@ -115,8 +115,9 @@ outputs/           Generated local artifacts, ignored by Git
 
 [The technical report](docs/results.pdf) covers the representation, leakage
 policy, model comparison, curves, condition-level results and AI workflow.
-The task also requires a public GitHub repository, the trained model on
-Hugging Face, `predictions.csv`, and a W&B run link in the report. Hugging Face
+Code is published on [GitHub](https://github.com/LL333111/ehr-forecast-final).
+The task also requires the trained model on Hugging Face, `predictions.csv`,
+and a W&B run link in the report. Hugging Face
 publication and W&B synchronization remain pending. Hidden-test metrics must
 come from the evaluator. Rename the report to the task's requested
 `your_name_results.pdf` when submitting.

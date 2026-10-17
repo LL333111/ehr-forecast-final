@@ -8,7 +8,8 @@ verifies the deliverable; it does not tune or retrain the model.
    selected columns, predictions and validation metrics.
 3. Complete locally: prepare concise English documentation, the technical report,
    aggregate results and model archive; preserve old research in the ignored archive.
-4. Pending: upload to the new GitHub repository after its owner supplies the destination.
+4. Complete: publish the 48-file final release to
+   https://github.com/LL333111/ehr-forecast-final and verify the remote files.
 
 Remaining submission dependencies: Hugging Face model publication, W&B account
 synchronization and the actual run URL, and evaluator-provided hidden-test
