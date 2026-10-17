@@ -99,3 +99,23 @@ split. Hidden-test metrics remain unavailable until the evaluator provides them.
 
 **Next.** Submit the named report, predictions, public code and model links.
 Do not use this release work to tune or retrain the model.
+
+## 2026-10-16 - Final reproducibility audit
+
+**Work.** Rechecked the original task README, all public files and both archives.
+Installed the packaged code in a fresh Python 3.12 environment on Windows and
+downloaded the Hub model anonymously. Rebuilt history from raw inputs; test and
+validation predictions were byte-identical, and all 40 condition scores matched.
+All 39 synthetic tests pass. Updated the report and clarified that subsample
+stability is checked separately from the final 512-feature ranking.
+
+**Rationale.** Verify the actual deliverables independently of the working environment.
+
+**Impact.** Validation remains mAP 0.246334 and macro AUROC 0.762251. The 26 source
+files, runtime code, model weights and predictions are unchanged. The handoff
+includes the report, predictions, links and complete code archive with weights.
+
+**Limitations.** Fresh-install verification covers Windows and Python 3.12.
+Validation was historically reused; hidden-test scores still require the evaluator.
+
+**Next.** Submit the prepared materials and obtain the evaluator's test scores.

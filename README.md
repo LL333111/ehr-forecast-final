@@ -61,10 +61,11 @@ available at that date. Examination facts can still contribute through the
 structured tables.
 
 Training produces 36,327 candidate columns, retains 16,181 after quality checks,
-and selects 512 using mutual information, shallow-tree gain, sparse logistic
-coefficients and subsample stability. All learned steps use official train
-only. The selected set contains five explicitly imaging-related features and
-no explicitly ECG-related features; this is a feature-name count, not a claim
+and selects 512 using mutual information, shallow-tree gain and sparse logistic
+coefficients. Three 80% training subsamples provide a separate stability check.
+All learned steps use official train only. The selected set contains five
+explicitly imaging-related features and no explicitly ECG-related features;
+this is a feature-name count, not a claim
 that all other modality information is irrelevant.
 
 ## Model choice and training

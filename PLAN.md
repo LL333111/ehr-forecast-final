@@ -18,6 +18,10 @@ verifies the deliverable; it does not tune or retrain the model.
 7. Complete: audit and synchronize the two final W&B runs, verify anonymous
    read access and every curve point, add the report links, and prepare all four
    submission items.
+8. Complete: recheck the original task requirements and public artifacts; install
+   the packaged code in a fresh environment, rebuild history from raw inputs, and
+   reproduce both prediction files and all validation metrics exactly. All 39
+   synthetic tests pass. Refresh the report and complete handoff archive.
 
 The submission files and public links are ready. Hidden-test metrics remain
 dependent on the evaluator; they cannot be computed from the released inputs.

@@ -92,11 +92,11 @@
     "target_codes_verified": 40,
     "English_only": true,
     "all_pages_visually_reviewed": true,
-    "sha256": "b73230e467049933eac7344d92cdbac95fb22b9a3cecf357eb49f709209b773b"
+    "sha256": "aa07df1df9e47539d857f677706811bad47d1b76d867e0f3bbbacf55c2110887"
   },
   "fitting_on_validation_or_test": false,
   "cleanup_retrained_models": false,
-  "installation_check": "Editable package installed in the existing pinned environment; no fresh dependency installation.",
+  "installation_check": "Packaged code installed in a fresh Python 3.12 environment on Windows; dependency checks and all 39 synthetic tests passed.",
   "github_repository": "https://github.com/LL333111/ehr-forecast-final",
   "hugging_face": {
     "repository": "https://huggingface.co/X13579/ehr-forecast-final",
@@ -117,5 +117,16 @@
     "public_access_verified": true,
     "validation_is_post_training_replay": true,
     "public_read_only": true
+  },
+  "fresh_reproduction": {
+    "operating_system": "Windows",
+    "python": "3.12.10",
+    "fresh_environment": true,
+    "fresh_raw_history_cache": true,
+    "model_downloaded_anonymously_from_hugging_face": true,
+    "test_predictions_byte_identical": true,
+    "validation_predictions_byte_identical": true,
+    "all_40_condition_metrics_identical": true,
+    "formal_model_fitting_performed": false
   }
 }
