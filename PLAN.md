@@ -22,6 +22,10 @@ verifies the deliverable; it does not tune or retrain the model.
    the packaged code in a fresh environment, rebuild history from raw inputs, and
    reproduce both prediction files and all validation metrics exactly. All 39
    synthetic tests pass. Refresh the report and complete handoff archive.
+9. Complete: revise the report's author voice and AI workflow to describe
+   individual review, iterative planning, tests and development logs. The three-page
+   PDF and all 39 synthetic tests pass review. Public and packaged reports must
+   use this verified revision.
 
 The submission files and public links are ready. Hidden-test metrics remain
 dependent on the evaluator; they cannot be computed from the released inputs.

@@ -119,3 +119,19 @@ includes the report, predictions, links and complete code archive with weights.
 Validation was historically reused; hidden-test scores still require the evaluator.
 
 **Next.** Submit the prepared materials and obtain the evaluator's test scores.
+
+## 2026-10-16 - Report authorship and AI workflow
+
+**Work.** Replaced collective author wording and expanded the required AI workflow
+to explain individual review, iterative planning, implementation, tests and logs.
+Checked all three pages, links and unchanged results. All 39 synthetic tests pass.
+
+**Rationale.** Describe the actual working process and the author's role clearly.
+
+**Impact.** Only report wording and release documentation changed; runtime code,
+model weights, predictions and metrics are unchanged.
+
+**Limitations.** No new model evaluation was performed. The report retains its
+validation and hidden-test limitations.
+
+**Next.** Synchronize the public report and submission archives before handoff.
